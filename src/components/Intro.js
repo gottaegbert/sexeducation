@@ -5,7 +5,7 @@ import { IntroCard } from '../components/utils/Cards'
 import { fonts, colors } from '../components/utils/_var'
 import { media } from '../components/utils/_media-queries'
 
-const Wrapper = styled.div`
+const Wrapper = styled.div `
   position: fixed;
   min-height: 100%;
   max-width: 100%;
@@ -46,11 +46,11 @@ const Intro = ({ title, _onStartClick }) => {
         <h1>{title}</h1>
         {/* TODO: WILL CHANGE THIS THING DOWN HERE */}
         <ul className="list-group">
-          <li className="list-group-item">Consits of 40 questions</li>
-          <li className="list-group-item">Answer honestly</li>
+          <li className="list-group-item">一共五个问题</li>
+          <li className="list-group-item">答对集五福</li>
         </ul>
         <StartBtn onClick={_onStartClick}>
-          <span>Let's Do This!</span>
+          <span>开始</span>
           <div className="icon">
             <i className="fa fa-arrow-right" />
           </div>

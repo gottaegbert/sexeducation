@@ -3,8 +3,9 @@ import { fonts, colors } from './_var'
 import { media } from './_media-queries'
 
 export const IntroCard = styled.div.attrs({
-  className: 'card'
-})`
+    className: 'card'
+})
+`
   position: absolute;
   height: 60%;
   width: 80%;
@@ -21,8 +22,8 @@ export const IntroCard = styled.div.attrs({
   ${media.laptop`width: 60%;`};
   .corner {
     backface-visibility: hidden;
-    border-right: 2px solid #d4cd96;
-    border-top: 2px solid #d4cd96;
+    border-right: 2px solid #FF306F;
+    border-top: 2px solid #FF306F;
     height: 12px;
     position: absolute;
     width: 12px;
@@ -63,8 +64,8 @@ export const QuestionCard = styled.div.attrs({
   ${media.laptop`width: 60%;`};
   .corner {
     backface-visibility: hidden;
-    border-right: 2px solid #d4cd96;
-    border-top: 2px solid #d4cd96;
+    border-right: 2px solid #FF306F;
+    border-top: 2px solid #FF306F;
     height: 12px;
     position: absolute;
     width: 12px;

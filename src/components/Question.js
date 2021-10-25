@@ -205,8 +205,7 @@ class Question extends Component {
         if (resultBriggs) {
             return this.renderResult()
         }
-        return ( <
-            Wrapper className = "container" >
+        return ( < Wrapper className = "container" >
             <
             QuestionCard >
             <
@@ -217,7 +216,7 @@ class Question extends Component {
             div className = "corner" / >
             <
             div className = "corner" / > { this.renderQuiz() } <
-            /QuestionCard> < /
+            /QuestionCard>  < /
             Wrapper >
         )
     }

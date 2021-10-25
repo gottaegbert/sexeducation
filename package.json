@@ -29,7 +29,7 @@
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build"
     },
-    "homepage": "https://gottaegbert.github.io/wufu-test-react",
+    "homepage": "http://www.egbert.tech/sexeducation/",
     "devDependencies": {
         "gh-pages": "^1.0.0"
     }

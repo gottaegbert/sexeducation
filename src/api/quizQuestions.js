@@ -4,88 +4,76 @@
 var quizQuestions = [
     // question #1
     {
-        question: 'I am task oriented in order to achieve certain goals.',
+        question: '预计下次排卵日为本次月经来潮起加14天',
         answers: [{
                 // briggs, color, letter
                 type: 'J,Brown,D',
-                content: 'YEP! THAT IS ME!'
+                content: '对'
             },
 
             {
                 type: 'J,Brown,D,No',
-                content: "NAH, THAT CAN'T BE ME!"
+                content: "错"
             }
         ]
     },
     // question #2
     {
-        question: 'I get bored easily when disscussing abstract concepts.',
+        question: '男性的精子进入女性体内可生存2至3天',
         answers: [{
                 // briggs, color, letter
                 type: 'N,Green,C',
-                content: 'YEP! THAT IS ME!'
+                content: '对'
             },
-            {
-                type: ' ',
-                content: 'I HAVE NO IDEA!'
-            },
+
             {
                 type: 'N,Green,C,No',
-                content: "NAH, THAT CAN'T BE ME!"
+                content: "错"
             }
         ]
     },
     // question #3
     {
-        question: 'I like to try things out myself.',
+        question: '口服避孕药的原理是由女性每日服用，造成不会排卵，而不会怀孕',
         answers: [{
                 // briggs, color, letter
                 type: 'S,Red,A',
-                content: 'YEP! THAT IS ME!'
+                content: '对'
             },
-            {
-                type: ' ',
-                content: 'I HAVE NO IDEA!'
-            },
+
             {
                 type: 'S,Red,A,No',
-                content: "NAH, THAT CAN'T BE ME!"
+                content: "错"
             }
         ]
     },
     // question #4
     {
-        question: "I like to know where I'm going before I leave the house.",
+        question: "要停止怀孕，最好在怀孕开始的3个月内进行人工流产手术较安全",
         answers: [{
                 // briggs, color, letter
-                type: 'J,Yellow,D',
-                content: 'YEP! THAT IS ME!'
+                type: 'J,Brown,D',
+                content: '对'
             },
+
             {
-                type: ' ',
-                content: 'I HAVE NO IDEA!'
-            },
-            {
-                type: 'J,Yellow,D,No',
-                content: "NAH, THAT CAN'T BE ME!"
+                type: 'J,Brown,D,No',
+                content: "错"
             }
         ]
     },
     // question #5
     {
-        question: 'I believe there is a logical explanation for everything.',
+        question: '女性感染淋病，有可能造成骨盆腔感染，日后较难怀孕',
         answers: [{
                 // briggs, color, letter
-                type: 'T,Pink,C',
-                content: 'YEP! THAT IS ME!'
+                type: 'T,Brown,C',
+                content: '对'
             },
+
             {
-                type: ' ',
-                content: 'I HAVE NO IDEA!'
-            },
-            {
-                type: 'T,Pink,C,No',
-                content: "NAH, THAT CAN'T BE ME!"
+                type: 'T,Brown,C,No',
+                content: "错"
             }
         ]
     },
